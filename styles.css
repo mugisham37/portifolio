@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+3:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vina+Sans&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1A1A1A;
+}
+body .introduction{
+    height: 70vh;
+    width: 100%;
+    background-image: url(img/profile.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 40px;
+    border-radius: 0px 0px 15px 15px ;
+    
+}
+body .introduction h1{
+    color: #DCE359;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 15px; 
+}
+body .introduction p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 17px;
+    color: black;
+    width: 45%;
+}
+body .introduction .contacts{
+    background-color: #DCE359;
+    margin-top: 10px;
+    width: 20%;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+body .introduction .contacts p{
+    color: black;
+}
+
+body .services {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+body .services .card1{
+    background-image: url(img/webdev.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+body .services .card1 h4{
+    font-family: 'Roboto', sans-serif;
+    color: #D1D3D4;
+}
+body .services .card1 p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+body .services .card2{
+    background-image: url(img/uxui.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+body .services .card2 h4{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+body .services .card2 p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+
+body .services .card3{
+    background-image: url(img/content.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+body .services .card3 h4{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+body .services .card3 p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+
+body .projects {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    height: 48vh;
+    padding: 40px 20px;
+}
+body .projects .tittle{
+    display: flex;
+    padding-bottom: 18px;
+    border-bottom: 1px solid black;
+}
+body .projects .tittle i{
+    font-size: 50px;
+    margin-right: 10Px;
+}
+body .projects .tittle h3{
+    font-size: 45px;
+}
+body .projects .proje{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px   7px 0px;
+    border-bottom: 1px solid black;
+    
+}
+body .projects .proje .left{
+    display: flex;
+}
+
+
+body .projects .proje .left i{
+    padding-right: 5px;
+    border-right: 1px solid black; 
+    padding-top: 4px;
+}
+body .projects .proje .left p{
+    padding-left: 5px ;
+    padding-top: 4px;
+}
+body .projects .proje button{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 5px;
+    border-radius: 5px;
+    outline: none;
+}
+body .projects .proje button i{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 5px;
+    font-size: 10px;
+}
+body .projects .proje button p{
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+}
+body .experience{
+    height: 45vh;
+    font-family: 'Merriweather', serif;
+    background-color: #014034;
+    color: white;
+    padding: 10px 18px; 
+}
+body .experience .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding:20px 0px 30px 0px ;
+    border-bottom: 1px solid white;
+}
+body .experience .text h3{
+    margin-right: 10px;
+    padding-left: 20PX;
+    color: #36BFB1;   
+    font-size: 35px; 
+    margin-right:180px; 
+}
+
+body .experience .icons{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 10px; 
+}
+body .experience .icons i{
+    font-size: 20PX;  
+    padding: 0px 60px;
+}
+
+
+
+body .testimonials {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: purple;
+    color: white;
+    padding: 20px 10px;
+}
+body .testimonials .customer{
+    margin: 210px 0px 90px 0px; 
+}
+body .testimonials .customer h2{
+    font-size: 40PX;
+}
+body .testimonials .customer h5{
+    font-size: 20PX;
+    padding-left: 30px;
+}
+body .testimonials .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+body .testimonials .cards .card {
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    padding: 40px 20px 0px 20px;
+    position: relative;
+    margin: 0px 10px;
+    background: rgba(255, 255, 255,0.2);
+    box-shadow: 10px 20px 25px rgba(0, 0, 0, 0.2);
+}
+
+body .testimonials .cards .card img{
+  width: 70PX;
+  height: 70PX;
+  position: absolute;
+  top: -42px;
+  left: 30px;
+  border-radius: 50%;
+  padding-bottom: 5px;
+}
+body .testimonials .cards .card p{
+    padding-bottom: 5px; 
+}
+body .testimonials .cards .card h3{
+    padding-top: 5px; 
+}
+body .testimonials .cards .card h5{
+    padding-top: 5px; 
+    color: black;
+}
+body .testimonials .cards .card i{
+  font-size: 50px;
+  position: absolute;
+  color: #b2beC3;
+  bottom: 10px;
+  right: 15px;
+}
+  
+  
